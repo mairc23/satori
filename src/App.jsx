@@ -1,16 +1,19 @@
-
-
 import './App.css' 
-import Menu from './components/Menu/menu.jsx'
+import { Routes,Route } from 'react-router-dom';
+import AppRoutes from './routes'
+import Menu from "./components/Menu/Menu";
+import { Outlet } from "react-router-dom";
 
 function App() {
   
 
   return (
-    <>
-      <Menu></Menu>
-    </>
-  )
+    <div className="App">
+      
+      <AppRoutes />
+      
+    </div>
+  );
 }
 
 export default App

@@ -1,7 +1,11 @@
 @font-face {
     font-family: 'Montserrat';
     src: url(assets/fonts/Montserrat-VariableFont_wght.ttf) format(truetype);
-    
+}
+
+@font-face {
+    font-family: 'Teko';
+    src: url(assets/fonts/Teko-VariableFont_wght.ttf) format(truetype);
 }
 
 * {
@@ -30,7 +34,9 @@
   --st-spacing-9: .9em;
   --st-spacing-10: 1em;
   --st-spacing-20: 2em;
-  --st-spacing-500: 5em;
+  --st-spacing-30: 3em;
+  --st-spacing-40: 4em;
+  --st-spacing-50: 5em;
 
   --st-font-size-1: .55em;
   --st-font-size-2: .57em;
@@ -43,7 +49,7 @@
   font-family: 'Montserrat';
   line-height: 1.5;
   font-weight: 400;
-  color-scheme: light dark;
+  /* color-scheme: light dark; */
   color: rgba(255, 255, 255, 0.87);
   background-color: var(--st-black-1);
 }
@@ -60,6 +66,15 @@
 .center { justify-content: center; }
 .direction-column { flex-direction: column; }
 .direction-row { flex-direction: row; }
+
+.grid {
+    display: grid;
+    gap: 4.8em 1.5em;
+    margin: 2em 0;
+}
+
+.colums-6 { grid-template-columns: repeat(6,minmax(0,1fr)); }
+.colums-3 { grid-template-columns: repeat(3,minmax(0,1fr)); }
 
 @media screen and (max-width: 1395px) {
     .page-width  { 
@@ -80,3 +95,34 @@
     background-color: #f9f9f9;
   }
 }
+
+@media screen and (max-width: 1200px) {
+    .grid { grid-template-columns: repeat(5,minmax(0,1fr)); }
+}
+
+@media screen and (max-width: 920px) {
+    .grid { grid-template-columns: repeat(4,minmax(0,1fr)); }
+}
+
+@media only screen and (max-width: 768px) {
+    .grid { 
+      grid-template-columns: repeat(10,minmax(10em,1fr)); 
+      padding-bottom: 2em;
+    }
+    .grid-overflow {
+      overflow: hidden;
+      overflow-x: scroll;
+    }
+
+    .grid-overflow::-webkit-scrollbar {
+      height: 8px;
+    }
+
+    .grid-overflow::-webkit-scrollbar-thumb {
+      background-color: var(--st-white-1); /* Color del thumb (la parte móvil de la barra de desplazamiento) */
+      border-radius: 6px; /* Bordes redondeados para el thumb */
+      border: 1px solid #ccc; /* Borde alrededor del thumb para crear espacio */
+    }
+}
+
+

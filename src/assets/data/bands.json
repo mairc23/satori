@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Touche Amoré",
+        "coverLive": "/assets/images/bands/touche-amore/touche-amore-live.jpeg",
+        "genres": ["Post-Hardc,ore", "Alternative Rock", "Screamo"],
+        "albums": [
+            { "id":"al-1","name": "Touche Amoré","price": 0,"year": 2008,"type": "Album","cover": "/assets/images/bands/touche-amore/albums/al-1.jpg"},
+            { "id":"al-2","name": "..To the Beat of a Dead Horse","price": 0,"year": 2009,"type": "Album","cover": "/assets/images/bands/touche-amore/albums/al-2.jpg"},
+            { "id":"al-3","name": "Live at W.e.r.s.","price": 0,"year": 2010,"type": "Album","cover": "/assets/images/bands/touche-amore/albums/al-3.jpg"},
+            { "id":"al-4","name": "Parting the Sea Between Brightness and Me","price": 0,"year": 2011,"type": "Album","cover": "/assets/images/bands/touche-amore/albums/al-4.jpg"},
+            { "id":"al-5","name": "Is Survived By","price": 0,"year": 2013,"type": "Album","cover": "/assets/images/bands/touche-amore/albums/al-5.jpg"},
+            { "id":"al-6","name": "Stage Four","price": 0,"year": 2016,"type": "Album","cover": "/assets/images/bands/touche-amore/albums/al-6.jpg"},
+            { "id":"al-7","name": "10 Years","price": 0,"year": 2018,"type": "Album","cover": "/assets/images/bands/touche-amore/albums/al-7.jpg"},
+            { "id":"al-8","name": "Dead Horse X","price": 0,"year": 2019,"type": "Album","cover": "/assets/images/bands/touche-amore/albums/al-8.jpg"},
+            { "id":"al-9","name": "Lament","price": 0,"year": 2020,"type": "Album","cover": "/assets/images/bands/touche-amore/albums/al-9.jpg"}
+        ]
+    },
+    {
+        "name": "TTNG",
+        "coverLive": "/assets/images/bands/ttng/ttng-live.jpg",
+        "genres": ["Alternative Rock", "Math Rock", "Indie"],
+        "albums": [
+            { "id":"al-","name": "","price": 0,"year": 0,"type": "","cover": "/assets/images/bands//albums/al-1.jpg"}
+        ]
+    },
+    {
+        "name": "Silverstein",
+        "coverLive": "/assets/images/bands/silverstein/silverstein-live.png",
+        "genres": ["", "", ""],
+        "albums": [
+            { "id":"al-15","name": "When Broken is Easily Fixed","price": 0,"year": 2003,"type": "Album","cover": "/assets/images/bands/silverstein/albums/al-1.jpg"},
+            { "id":"al-16","name": "Discovering the Waterfront","price": 0,"year": 2005,"type": "Album","cover": "/assets/images/bands/silverstein/albums/al-2.jpg"},
+            { "id":"al-17","name": "18 Candles: The Early Years","price": 0,"year": 2006,"type": "Album","cover": "/assets/images/bands/silverstein/albums/al-3.jpg"},
+            { "id":"al-18","name": "Arrivals & Departures","price": 0,"year": 2007,"type": "Album","cover": "/assets/images/bands/silverstein/albums/al-4.jpg"},
+            { "id":"al-19","name": "A Shipwreck in the Sand","price": 0,"year": 2009,"type": "Album","cover": "/assets/images/bands/silverstein/albums/al-5.jpg"},
+            { "id":"al-20","name": "Decade: Live At The EL Mocambo","price": 0,"year": 2010,"type": "Album","cover": "/assets/images/bands/silverstein/albums/al-6.jpg"},
+            { "id":"al-20","name": "Rescue","price": 0,"year": 2011,"type": "Album","cover": "/assets/images/bands/silverstein/albums/al-7.jpg"},
+            { "id":"al-21","name": "This is How The Wind Shifts","price": 0,"year": 2013,"type": "Album","cover": "/assets/images/bands/silverstein/albums/al-9.jpg"},
+            { "id":"al-22","name": "I am Alive in Everything i Touch","price": 0,"year": 2015,"type": "Album","cover": "/assets/images/bands/silverstein/albums/al-10.jpg"},
+            { "id":"al-23","name": "Dead Reflection","price": 0,"year": 2017,"type": "Album","cover": "/assets/images/bands/silverstein/albums/al-11.jpg"},
+            { "id":"al-24","name": "Redux: The First 10 Years","price": 0,"year": 2019,"type": "Album","cover": "/assets/images/bands/silverstein/albums/al-12.jpg"},
+            { "id":"al-25","name": "A Beautiful Place To Drown","price": 0,"year": 2020,"type": "Album","cover": "/assets/images/bands/silverstein/albums/al-14.jpg"},
+            { "id":"al-26","name": "Redux II","price": 0,"year": 2020,"type": "Album","cover": "/assets/images/bands/silverstein/albums/al-15.jpg"},
+            { "id":"al-27","name": "Misery Made Me","price": 0,"year": 2022,"type": "Album","cover": "/assets/images/bands/silverstein/albums/al-16.jp"}
+        ]
+    },
+    {
+        "name": "Toe",
+        "coverLive": "/assets/images/bands/toe/toe-live.jpg",
+        "genres": ["", "", ""],
+        "albums": []
+    },
+    {
+        "name": "Underoath",
+        "coverLive": "/assets/images/bands/underoath/underoath-live.jpg",
+        "genres": ["", "", ""],
+        "albums": [
+            { "id":"al-","name": "","price": 0,"year": 0,"type": "","cover": "/assets/images/bands//albums/al-1.jpg"}
+        ]
+    },
+    {
+        "name": "Polyphia",
+        "coverLive": "/assets/images/bands/polyphia/polyphia-live.png",
+        "genres": ["", "", ""],
+        "albums": [
+            { "id":"al-","name": "","price": 0,"year": 0,"type": "","cover": "/assets/images/bands//albums/al-1.jpg"}
+        ]
+    },
+    {
+        "name": "",
+        "coverLive": "/assets/images/bands//-live.",
+        "genres": ["", "", ""],
+        "albums": [
+            { "id":"al-","name": "","price": 0,"year": 0,"type": "","cover": "/assets/images/bands//albums/al-1.jpg"}
+        ]
+    }
+]

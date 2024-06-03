@@ -1,7 +1,12 @@
-const Home = () => {
-    <div>
-    <h1>Welcome to Home Page</h1>
-  </div>
-};
+import Slider from "../components/slider/slider";
+import Galery from "../components/Galery/galery";
 
+function Home() {
+  return (
+    <>
+      <Slider />
+      <Galery title="last releases"/>
+    </>
+  )
+}
 export default Home;
