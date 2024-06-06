@@ -5,6 +5,7 @@ import Bands from "./pages/Bands";
 import Tours from "./pages/Tours";
 import About from "./pages/About";
 import Menu from './components/Menu/Menu';
+import AllMusic from './pages/AllMusic/AllMusic';
 
 function AppRoutes() {
   return (
@@ -15,6 +16,7 @@ function AppRoutes() {
         <Route path="/Merch" element={<Merch />} />
         <Route path="/Tours" element={<Tours />} />
         <Route path="/About" element={<About />} />
+        <Route path='/AllMusic' element={<AllMusic/>}/>
       </Route>
     </Routes>
   )
