@@ -1,10 +1,10 @@
 .containerReleases { margin: var(--st-spacing-30) 0 var(--st-spacing-50); }
 
-.containerFilter { width: 25%; }
+.containerFilter { width: 25%; margin: 5em 0;}
 
 .filter {
     position: relative;
-    margin: 1em 2em;
+    margin: 1em 5%;
     cursor: pointer;
 }
 .filter::before {
@@ -29,8 +29,11 @@
     vertical-align: middle;
 }
 
-.selection span {
-    font-size: 9px;
+.folder {
+    background-color: var(--st-white-1);
+    color: var(--st-black-1);
 }
+
+.selection span { font-size: 9px; }
 
 .containerAlbums { width: 75%; margin: 0 2em;}

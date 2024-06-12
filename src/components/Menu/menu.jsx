@@ -94,7 +94,7 @@ function Menu() {
           <div className="page-width">
             <div className="flex center logo">
                 <a href="/" className="logo-button">
-                  <div className="cover-logo"><img src="/assets/images/logo.png" alt="logo" className="img-logo" /></div>
+                  <div className="cover-logo"><img src="/assets/images/logoFinal.png" alt="logo" className="img-logo" /></div>
                 </a>
             </div>
             <nav className="flex center main-navigation">

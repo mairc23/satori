@@ -36,7 +36,7 @@
   --st-spacing-20: 2em;
   --st-spacing-30: 3em;
   --st-spacing-40: 4em;
-  --st-spacing-50: 5em;
+  --st-spacing-50: 4em;
 
   --st-font-size-1: .55em;
   --st-font-size-2: .57em;
@@ -100,11 +100,19 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .grid { grid-template-columns: repeat(5,minmax(0,1fr)); }
+  .colums-6 { grid-template-columns: repeat(5,minmax(0,1fr)); }
+}
+
+@media screen and (max-width: 1090px) {
+  .colums-4 { grid-template-columns: repeat(3,minmax(0,1fr)); }
 }
 
 @media screen and (max-width: 920px) {
-    .grid { grid-template-columns: repeat(4,minmax(0,1fr)); }
+  .colums-6 { grid-template-columns: repeat(4,minmax(0,1fr)); }
+}
+
+@media screen and (max-width: 800px) {
+  .colums-4 { grid-template-columns: repeat(2,minmax(0,1fr)); }
 }
 
 @media only screen and (max-width: 768px) {
